@@ -33,3 +33,15 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 > Enter your browser http://localhost:8000/. You can login via admin in http://localhost:8000/admin/.
+## Project Structure
+```
+├───.idea
+│   └───inspectionProfiles
+├───the_weather
+│   └───__pycache__
+└───weather
+    ├───migrations
+    │   └───__pycache__
+    ├───templates
+    │   └───weather
+    └───__pycache__
