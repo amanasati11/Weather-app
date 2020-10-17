@@ -2,14 +2,14 @@
 [![](https://img.shields.io/pypi/pyversions/Django.svg)](https://python.org/downloads/)
 [![](https://img.shields.io/badge/django-2.0%20%7C%202.1%20%7C%202.2-success.svg)](https://djangoproject.com/)
 
-This weather app is created in Django framework to get live weather status.
+This repository implements a weather app that uses Open Weather API and Django as a backend framework to get live weather status.
 
 ## Screenshots
 ![d](https://user-images.githubusercontent.com/69810375/94898101-970d8b80-04ae-11eb-8bb0-7f89aef27c3c.PNG)
 
 ## Features 
 
--This weather app is created in Django framework to get live weather status.
+- Get Real-Time Weather Information of a City!
 
 How To Use
 =
@@ -33,6 +33,7 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 > Enter your browser http://localhost:8000/. You can login via admin in http://localhost:8000/admin/.
+
 ## Project Structure
 ```
 ├───.idea
